@@ -1,6 +1,6 @@
 # The Blacklist — Intelligence Board
 
-Fan-made interactive companion for watching The Blacklist together, currently spoiler-locked to **Season 1 Episodes 1–8**.
+Fan-made interactive companion for watching The Blacklist together, currently spoiler-locked to **all 22 Season 1 episodes**.
 
 ## Launch
 
@@ -19,8 +19,8 @@ Your public website will then be: https://cchambruhs.github.io/blacklist-intelli
 
 ## Spoilers and accuracy
 
-Only episodes 1–8 are implemented. Selecting an episode shows developments up to that episode, but the initial viewing position defaults to episode 8. Recaps are concise summaries and may omit subplots. This is an independent fan project, not affiliated with the show's producers.
+All 22 Season 1 episodes are included, with episodes 9–22 locked until individually confirmed as watched. Selecting an unlocked episode shows developments up to that episode, but the initial viewing position defaults to episode 8. Recaps are concise summaries and may omit subplots. This is an independent fan project, not affiliated with the show's producers.
 
 ## Next steps
 
-Verify and deepen individual episode dossiers, add graph pan and zoom, then expand Season 1 one episode at a time. Shared viewing progress would require a separate synchronization service.
+Verify and deepen individual episode dossiers, add graph pan and zoom, then expand into Season 2 only after the viewers are ready. Shared viewing progress would require a separate synchronization service.
