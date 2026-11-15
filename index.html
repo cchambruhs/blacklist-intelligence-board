@@ -31,7 +31,7 @@ const $=id=>document.getElementById(id);
 const escapeHtml=v=>String(v??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
 const getNumber=(key,fallback)=>{try{const v=Number(localStorage.getItem(key));return Number.isFinite(v)&&v>0?v:fallback}catch{return fallback}};
 const save=(key,value)=>{try{localStorage.setItem(key,String(value))}catch{}};
-let unlocked=Math.min(22,Math.max(8,getNumber('blacklist-unlocked',8)));
+let unlocked=22;save('blacklist-unlocked',22);
 let ep=Math.min(unlocked,Math.max(1,getNumber('blacklist-episode',8)));
 let tab='board',selected=null,cy=null,graphNodes=[],graphEdges=[];
 const people=new Set(['Red','Liz','Tom','Sam','Ressler','Madeline Pratt','Floriana Campo']);
